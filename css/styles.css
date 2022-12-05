@@ -161,6 +161,27 @@ img {
   align-items: center;
 }
 
+.heading__mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.heading__mobile-menu {
+  width: 24px;
+  height: 16px;
+}
+.heading__mobile-menu:hover, .header__mobile-menu:focus {
+  fill: #2196f3;
+}
+.heading-line {
+  border-bottom: 1px solid #e5e5e5;
+}
+
  /* banner */
 
 .banner {
