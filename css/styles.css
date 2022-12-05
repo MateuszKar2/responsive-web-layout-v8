@@ -19,10 +19,8 @@
 /* resect-header */
 
 .header {
-  width: 1200px;
-  border-bottom: 1px solid #ececec;
-  margin: 0 auto;
-  align-content: center;
+ border-bottom: 1px solid #ececec;
+ align-content: center;
 }
 
 body {
@@ -37,9 +35,9 @@ body {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  width: 100%;
 }
 
 .text--secondary:hover,
