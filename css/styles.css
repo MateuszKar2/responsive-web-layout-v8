@@ -98,7 +98,8 @@ img {
 
 /*heading*/
 
-.heading {
+
+  .heading {
   display: flex;
   padding: 24px 15px 25px 15px;
   align-items: center;
@@ -162,6 +163,14 @@ img {
   display: flex;
   align-items: center;
 }
+
+/*mobile*/
+.menu-toggle {
+ border: none;
+ background: transparent;
+ padding-right: 20px;
+}
+
 
  /* banner */
 
