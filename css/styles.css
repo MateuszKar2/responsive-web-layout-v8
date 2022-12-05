@@ -19,8 +19,10 @@
 /* resect-header */
 
 .header {
- border-bottom: 1px solid #ececec;
- align-content: center;
+  width: 1200px;
+  border-bottom: 1px solid #ececec;
+  margin: 0 auto;
+  align-content: center;
 }
 
 body {
@@ -35,9 +37,9 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
-  width: 100%;
+  padding: 0 15px;
 }
 
 .text--secondary:hover,
@@ -159,27 +161,6 @@ img {
 .heading__contact a {
   display: flex;
   align-items: center;
-}
-
-.heading__mobile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-  background-color: #fff;
-  cursor: pointer;
-  margin-right: 15px;
-}
-
-.heading__mobile-menu {
-  width: 24px;
-  height: 16px;
-}
-.heading__mobile-menu:hover, .header__mobile-menu:focus {
-  fill: #2196f3;
-}
-.heading-line {
-  border-bottom: 1px solid #e5e5e5;
 }
 
  /* banner */
