@@ -20,7 +20,7 @@
   color: var(--notblack);
   margin-bottom: 10px;
 }
-.list {
+&__list {
   gap: 30px;
   margin: 0;
   padding-top: 94px;
@@ -34,7 +34,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-.list {
+&__list {
     display: flex;
     justify-content: center;
 }
