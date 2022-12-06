@@ -17,14 +17,6 @@
     color: var(--black);
   }
   
-  &__navigate-list {
-    display: flex;
-    list-style: none;
-    gap: 46px;
-    margin-left: 93px;
-    display: none;
-  }
-  
   &__navigate-item {
     position: relative;
   }
@@ -46,11 +38,6 @@
   &__icon {
     margin-right: 10px;
   }
-  &__contact a {
-    display: flex;
-    align-items: center;
-    display: none;
-  }
   
   &__contact-link:hover,
   &__contact-link:focus {
@@ -69,6 +56,18 @@
 }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  &__navigate-list {
+    display: flex;
+    list-style: none;
+    gap: 46px;
+    margin-left: 93px;
+     
+  }
+  &__contact a {
+    display: flex;
+    align-items: center;
+     
+  }
 }
 
 
