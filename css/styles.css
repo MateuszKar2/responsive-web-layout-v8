@@ -37,7 +37,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -98,7 +98,7 @@ img {
 
 /*heading*/
 
-
+@media screen and (min-width: 480px) {
   .heading {
   display: flex;
   padding: 24px 15px 25px 15px;
@@ -116,14 +116,13 @@ img {
   letter-spacing: 0.03em;
   color: var(--black);
 }
-
 .heading__navigate-list {
   display: flex;
   list-style: none;
   gap: 46px;
   margin-left: 93px;
+  visibility: hidden;
 }
-
 .heading__navigate-item {
   position: relative;
 }
@@ -169,6 +168,15 @@ img {
  border: none;
  background: transparent;
  padding-right: 20px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  
 }
 
 
