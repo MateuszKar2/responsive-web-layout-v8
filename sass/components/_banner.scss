@@ -1,3 +1,4 @@
+@media screen and (max-width: 767px) {
 .banner {
     background-color: var(--darkgrey);
     color: var(--white);
@@ -13,6 +14,8 @@
     margin: auto;
     background-size: cover;
     max-width: 1600px;
+    object-fit: cover;
+    background-size: cover;
   
   &__text {
     text-align: center;
@@ -39,4 +42,13 @@
     width: 200px;
     height: 50px;
   }
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  
 }

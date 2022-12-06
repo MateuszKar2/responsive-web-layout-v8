@@ -1,3 +1,4 @@
+@media screen and (max-width: 767px) {
   .heading {
     display: flex;
     padding: 24px 15px 25px 15px;
@@ -45,6 +46,11 @@
   &__icon {
     margin-right: 10px;
   }
+  &__contact a {
+    display: flex;
+    align-items: center;
+    display: none;
+  }
   
   &__contact-link:hover,
   &__contact-link:focus {
@@ -59,10 +65,16 @@
     line-height: 1.14285714;
   }
   
-  &__contact a {
-    display: flex;
-    align-items: center;
-  }
+   
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  
 }
 
 
