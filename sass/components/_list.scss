@@ -1,5 +1,14 @@
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  justify-content: center;
+}
 
- &__icon {
+.list__icon {
   background-color: var(--notwhite);
   border-radius: 4px;
   height: 120px;
@@ -9,7 +18,8 @@
   align-items: center;
   margin-bottom: 30px;
 }
-&__title {
+
+.list__title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -19,23 +29,4 @@
   text-transform: uppercase;
   color: var(--notblack);
   margin-bottom: 10px;
-}
-&__list {
-  gap: 30px;
-  margin: 0;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  display: block;
-}
-
-@media screen and (min-width: 768px) {
-
-  
-}
-
-@media screen and (min-width: 1200px) {
-&__list {
-    display: flex;
-    justify-content: center;
-}
 }
