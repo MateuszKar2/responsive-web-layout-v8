@@ -19,7 +19,7 @@
 /* resect-header */
 
 .header {
-  width: 1200px;
+  width: 100%;
   border-bottom: 1px solid #ececec;
   margin: 0 auto;
   align-content: center;
@@ -304,6 +304,7 @@ img {
   display: flex;
   flex-direction: column;
 }
+
 /*team */
 
 .team {

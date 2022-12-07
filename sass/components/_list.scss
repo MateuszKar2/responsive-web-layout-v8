@@ -1,18 +1,9 @@
-.list {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin: 0;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  justify-content: center;
-}
 
 .list__icon {
   background-color: var(--notwhite);
   border-radius: 4px;
   height: 120px;
-  width: 270px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,4 +20,46 @@
   text-transform: uppercase;
   color: var(--notblack);
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.list {
+  gap: 30px;
+  margin: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.list__text {
+  height: 50px;
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .list__icon {
+    width: 354px;
+  }
+  .list__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--notblack);
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+
+
+.list {
+  gap: 30px;
+  margin: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  display: flex;
+  justify-content: center;
+}
 }

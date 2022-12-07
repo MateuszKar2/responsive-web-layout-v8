@@ -1,5 +1,5 @@
 
-/*.banner {
+.banner {
     background-color: var(--darkgrey);
     color: var(--white);
     display: flex;
@@ -12,18 +12,19 @@
       url(../images/picture.jpg) no-repeat;
     background-position: 50% 50%;
     margin: auto;
-    background-size: cover;
-    max-width: 1600px;
     object-fit: cover;
-    background-size: cover;
-  
+    background-size: auto;
+    min-height: 400px;
+    min-width: 320px;
+    height: 400px;
+    
   &__text {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     padding: 200px 0 30px;
     font-weight: 900;
-    font-size: 44px;
+    font-size: 26px;
     line-height: 1.363;
     margin: 0;
     user-select: none;
@@ -45,52 +46,16 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+ 
 }
 
 
 @media screen and (min-width: 1200px) {
-
-  
-}*/
-.banner {
-  background-color: var(--darkgrey);
-  color: var(--white);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding-bottom: 200px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/picture.jpg) no-repeat;
-  background-position: 50% 50%;
-  margin: auto;
-  background-size: cover;
+  .banner {
   max-width: 1600px;
-}
-
- .banner__text {
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  padding: 200px 0 30px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.363;
-  margin: 0;
-  user-select: none;
-}
-
- .banner__button {
-  color: var(--white);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  background-color: var(--blue);
-  border-style: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
-  width: 200px;
-  height: 50px;
+  }
+  .banner__text {
+    font-size: 44px;
+    padding: 178px 0 30px;
+  }
 }

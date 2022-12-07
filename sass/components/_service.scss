@@ -1,3 +1,8 @@
+.service, .service__list, .service__picture, .service__description {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
 .service {
   color: var(--notblack);
   font-weight: 700;
@@ -46,6 +51,7 @@
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
+ display: flex;
+ flex-direction: column;
+}
 }
