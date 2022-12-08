@@ -1,11 +1,12 @@
   .form {
     padding-top: 72px;
-    padding-left: 78px;
+    /*padding-left: 78px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;*/
+    text-align: center;
 
    &__signin {
-     display: inline;
+    /* display: inline;*/
      margin-left: 12px;
    }
 
@@ -23,8 +24,8 @@
      cursor: pointer;
      width: 200px;
      height: 50px;
-     display: flex;
-     justify-content: center;
+     /*display: flex;
+     justify-content: center;*/
      align-items: center;
    
    }
@@ -33,18 +34,18 @@
      margin-left: 24px;
    }
    &__signup-name {
-     display: flex;
-     flex-direction: row;
+     /*display: flex;
+     flex-direction: row;*/
    }
    &__signup {
-     display: flex;
-     align-items: flex-end;
+    /*display: flex;
+     align-items: flex-end;*/
    }
    &__writing {
-     display: block;
+     /*display: block;*/
    }
    &__input {
-     width: 358px;
+     width: 100%; /*358px;*/
      height: 50px;
      color: rgba(255, 255, 255, 0.6);
      border: 1px solid rgba(117, 117, 117, 0.3);
@@ -54,7 +55,7 @@
    }
   }
   .form span {
-    display: block;
+   /* display: block;*/
     margin-bottom: 20px;
     color: var(--white);
     font-weight: 700;

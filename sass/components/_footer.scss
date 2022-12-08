@@ -6,14 +6,16 @@
     margin: 0;
     padding-top: 60px;
     padding-bottom: 60px;
+    text-align: center;
+  
   }
   
   &__center {
     flex-direction: column;
-    display: inline-flex;
+    /*display: inline-flex;*/
     margin: 0;
-    padding-top: 72px;
-    padding-left: 70px;
+   /* padding-top: 72px;
+    padding-left: 70px;*/
   }
   
   &__logo {
@@ -24,6 +26,7 @@
     font-weight: 700;
     line-height: 1.19230769;
     margin: 0;
+    display: block;
   }
   
   &__list {
@@ -47,6 +50,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white);
+    text-align: center;
   }
   
   &__icon-position {
