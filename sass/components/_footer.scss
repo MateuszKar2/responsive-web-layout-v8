@@ -6,8 +6,6 @@
     margin: 0;
     padding-top: 60px;
     padding-bottom: 60px;
-    display: flex;
-    justify-content: center;
   }
   
   &__center {
@@ -89,5 +87,9 @@
       .footer__space {
         display: flex;
         flex-direction: row;
+      }
+      .footer__left {
+        display: flex;
+        justify-content: center;
       }
     }

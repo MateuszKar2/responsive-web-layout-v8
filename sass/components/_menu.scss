@@ -1,3 +1,8 @@
+
+@media (min-width: 768px) {
+   .menu-toggle {
+     display: none;
+   }
 @media (max-width: 767px) {
    .heading__nav-list {
      display: none;
@@ -120,3 +125,4 @@
  .mobile .menu-toggle:hover, .mobile .menu-toggle:focus {
    fill: #2196f3;
  }
+}
