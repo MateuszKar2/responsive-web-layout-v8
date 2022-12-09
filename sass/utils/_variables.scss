@@ -1,17 +1,17 @@
-:root {
-    --white: #fff;
-    --black: #000;
-    --blue: #2196f3;
-    --darkgrey: #2f303a;
-    --grey: #757575;
-    --lightgrey: #e5e5e5;
-    --lightcream: #ececec;
-    --notblack: #212121;
-    --notwhite: #f5f4fa;
-    --footerlinks: rgba(255, 255, 255, 0.6);
-    --productborder: #eeeeee;
-    --background: rgba(47, 48, 58, 0.4);
-    --iconcolor: #afb1b8;
-    --footericon: rgba(255, 255, 255, 0.1);
-    --backgroundbackdrop: rgba(000, 000, 000, 0.2);
-  }
+$brand-color: #2196f3;
+$primary-color: #212121;
+$light-txt-color: #757575;
+$dark-background: #2f303a;
+$light-item-color: #f5f4fa;
+$light-line: #eee;
+$header-line: #ececec;
+$white-item: #fff;
+$black-item: #000;
+$icon-logo-color: #afb1b8;
+$footer-socialmedia-elipse: rgba(255 255 255 / 0.1);
+$mobile-social-border: rgba(33 33 33 / 0.2);
+$font-family: "Roboto", sans-serif;
+
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1200px;

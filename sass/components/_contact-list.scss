@@ -1,0 +1,66 @@
+.l-contact-stack {
+    display: none;
+  }
+  @media screen and (min-width: $tablet) {
+    .l-contact-stack {
+      display: block;
+    }
+    .c-contact-list {
+      @include nodot;
+    }
+    .c-contact-list__item:first-of-type {
+      margin-bottom: 5px;
+    }
+    .c-contact-list__link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      vertical-align: middle;
+      text-decoration: none;
+      color: $light-txt-color;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 1.16;
+      letter-spacing: 0.02em;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      &:hover,
+      &:focus {
+        color: $brand-color;
+      }
+    }
+    .c-contact-list__icon {
+      width: 14px;
+      height: 10px;
+      fill: currentColor;
+      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      &:hover,
+      &:focus {
+        fill: $brand-color;
+      }
+    }
+    .c-contact-list__icon--custom-size {
+      width: 10px;
+      height: 14px;
+    }
+  }
+  @media screen and (min-width: $desktop) {
+    .c-contact-list__item {
+      display: inline;
+      &:first-child {
+        margin-right: 50px;
+        margin-bottom: 0;
+      }
+    }
+    .c-contact-list__link {
+      font-size: 14px;
+      line-height: 1.14;
+    }
+    .c-contact-list__icon {
+      width: 16px;
+      height: 12px;
+    }
+    .c-contact-list__icon--custom-size {
+      width: 10px;
+      height: 16px;
+    }
+  }

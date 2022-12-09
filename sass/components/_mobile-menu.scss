@@ -1,0 +1,106 @@
+.c-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: $white-item;
+    padding-left: 40px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .is-closed {
+    transform: translate(100%, 0);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .c-menu-body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .c-menu-btn {
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+    padding-right: 15px;
+  }
+  .c-menu-btn__button {
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      fill: $brand-color;
+    }
+  }
+  .c-menu-nav {
+    @include nodot;
+    margin-bottom: auto;
+  }
+  .c-menu-nav__link {
+    display: inline-block;
+    text-decoration: none;
+    color: $primary-color;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    margin-bottom: 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: $brand-color;
+    }
+  }
+  .c-menu-contact {
+    @include nodot;
+  }
+  .c-menu-contact__link {
+    display: block;
+    text-decoration: none;
+    color: $brand-color;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    margin-bottom: 32px;
+  }
+  .c-menu-contact__link--secondary {
+    color: $light-txt-color;
+    font-size: 24px;
+    line-height: 1.16;
+    margin-bottom: 65px;
+  }
+  .c-menu-social {
+    @include nodot;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 48px;
+    padding-right: 83px;
+  }
+  .c-menu-social__item {
+    display: inline;
+    border-right: 1px solid $mobile-social-border;
+    padding-right: 9px;
+  }
+  .c-menu-social__item--unborder {
+    margin-right: 0;
+    border-right: none;
+    padding-right: 0;
+  }
+  .c-menu-social__link {
+    margin: 0;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 0.81;
+    letter-spacing: 0.02em;
+    color: $brand-color;
+  }

@@ -1,89 +1,47 @@
-
-
-.team {
-    background-color: var(--notwhite);
-  
-  &__title {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--notblack);
-    margin: 0;
-    padding-top: 94px;
-    padding-bottom: 50px;
-  }
-  
-  
-  &__list {
-    list-style: none;
+.c-team {
+    @include nodot;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
-    margin: 0;
-    padding: 0 15px 102px;
   }
-  
-  &__picture {
+  .c-team__card {
     width: 100%;
-    background-color: var(--white);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
+    padding-bottom: 30px;
+    background: $white-item;
+    box-shadow: 0px 1px 3px rgba(0 0 0 / 0.12), 0px 1px 1px rgba(0 0 0 / 0.14),
+      0px 2px 1px rgba(0 0 0 / 0.2);
     border-radius: 0px 0px 4px 4px;
   }
-  
-  &__name {
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--notblack);
+  .c-team__img {
+    display: block;
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+  }
+  .c-team__name {
+    margin: 0 0 10px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.1875;
-    margin: 0;
-    padding-top: 30px;
-    padding-bottom: 10px;
-  }
-  
-  &__signature {
+    line-height: 1.18;
     text-align: center;
-    font-weight: 400;
     letter-spacing: 0.03em;
+  }
+  .c-team__position {
+    margin: 0 0 16px;
     font-size: 16px;
-    line-height: 1.1875;
-    margin: 0 auto;
-    padding-bottom: 30px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $light-txt-color;
   }
-  
-  &__icon {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-    align-items: center;
-    margin: 0;
-  }
-}
-  
-  .team__icon-link {
-    fill: var(--iconcolor);
-    width: 44px;
-    height: 44px;
-    background-color: var(--white);
-    border-radius: 50%;
-  }
-  
-  .team__icon-link:hover {
-    cursor: pointer;
-    background-color: var(--blue);
-    fill: var(--white);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  @media screen and (min-width: 768px) {
-    .team__list {
-    display: flex;
-    justify-content: center;
+  @media screen and (min-width: $tablet) {
+    .c-team__card {
+      width: calc((100% - 30px) / 2);
     }
   }
-
-
-  @media screen and (min-width: 1200px) {}
+  @media screen and (min-width: $desktop) {
+    .c-team__card {
+      flex-basis: calc((100% - 90px) / 4);
+    }
+  }

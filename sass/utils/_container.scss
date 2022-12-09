@@ -1,0 +1,30 @@
+.l-container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.l-container--footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+@media screen and (min-width: $tablet) {
+  .l-container {
+    width: 100%;
+  }
+  .l-container--footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: $desktop) {
+  .l-container {
+    max-width: $desktop;
+  }
+  .l-container--footer {
+    justify-content: space-between;
+    text-align: left;
+  }
+}

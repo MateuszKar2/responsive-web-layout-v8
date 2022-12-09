@@ -1,0 +1,50 @@
+.c-offer {
+    @include nodot;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .c-offer__item {
+    width: 100%;
+  }
+  .c-offer__body {
+    background-color: $light-item-color;
+    border-radius: 4px;
+    padding: 25px 0;
+    margin-bottom: 30px;
+  }
+  .c-offer__icon {
+    display: block;
+    margin: 0 auto;
+  }
+  .c-offer__title {
+    text-align: center;
+    margin: 0 0 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  .c-offer__text {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $light-txt-color;
+  }
+  @media screen and (min-width: $tablet) {
+    .c-offer__item {
+      width: 100%;
+      flex-basis: calc((100% - 30px) / 2);
+    }
+    .c-offer__title {
+      text-align: left;
+    }
+  }
+  @media screen and (min-width: $desktop) {
+    .c-offer__item {
+      flex-basis: calc((100% - 90px) / 4);
+    }
+  }
