@@ -176,8 +176,18 @@
           <h2 class="team__title">Nasz zespół</h2>
           <ul class="team__list">
             <li class="team__picture">
-              <img src="./images/designer1x.jpg" srcset="./images/designer@2x.jpg 2x"
-              alt="brown shirt man" height="260" width="270">
+              <img src="./images/designer1x.jpg" 
+              alt="brown shirt man" 
+              srcset="
+                    ./images/designer1x.jpg   450w,
+                    ./images/designer@2x.jpg  900w,
+                    ./images/designert.jpg    354w,
+                    ./images/designert@2x.jpg 708w,
+                    ./images/designerc.jpg    270w,
+                    ./images/designerc@2x.jpg 540w
+                  "
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"
+                />
               <h4 class="team__name">John Doe</h4>
               <p class="team__signature">Product Designer</p>
               <p class="team__icon">
@@ -196,8 +206,18 @@
               <p>
             </li>
             <li class="team__picture">
-              <img src="./images/frontend1x.jpg" srcset="./images/frontend@2x.jpg 2x"
-              alt="blond hair woman" height="260" width="270">
+              <img src="./images/frontend1x.jpg" 
+              alt="blond hair woman" 
+              srcset="
+                    ./images/frontend1x.jpg   450w,
+                    ./images/frontend@2x.jpg  900w,
+                    ./images/frontendt.jpg    354w,
+                    ./images/frontendt@2x.jpg 708w,
+                    ./images/frontendc.jpg    270w,
+                    ./images/frontendc@2x.jpg 540w
+                  "
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"
+                />
               <h4 class="team__name">John Doe</h4>
               <p class="team__signature">Frontend Developer</p>
               <p class="team__icon">
@@ -215,8 +235,18 @@
                 </svg>
             </li>
             <li class="team__picture">
-              <img src="./images/marketing1x.jpg" srcset="./images/marketing@2x.jpg 2x"
-               alt="white shirt man" height="260" width="270">
+              <img src="./images/marketing1x.jpg" 
+               alt="white shirt man" 
+               srcset="
+                    ./images/marketing1x.jpg   450w,
+                    ./images/marketing@2x.jpg  900w,
+                    ./images/marketingt.jpg    354w,
+                    ./images/marketingt@2x.jpg 708w,
+                    ./images/marketingc.jpg    270w,
+                    ./images/marketingc@2x.jpg 540w
+                  "
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"
+                />
               <h4 class="team__name">John Doe</h4>
               <p class="team__signature">Marketing</p>
               <p class="team__icon">
@@ -234,8 +264,18 @@
                 </svg>
             </li>
             <li class="team__picture">
-              <img src="./images/UI1x.jpg" srcset="./images/UI@2x.jpg 2x"
-               alt="black shirt man" height="260" width="270">
+              <img src="./images/UI1x.jpg" 
+               alt="black shirt man"
+               srcset="
+                    ./images/UI1x.jpg   450w,
+                    ./images/UI@2x.jpg  900w,
+                    ./images/UIt.jpg    354w,
+                    ./images/UIt@2x.jpg 708w,
+                    ./images/UIc.jpg    270w,
+                    ./images/UIc@2x.jpg 540w
+                  "
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"
+                />
               <h4 class="team__name">John Doe</h4>
               <p class="team__signature">Ul Designer</p>
               <p class="team__icon">
@@ -381,7 +421,15 @@
     </footer>
 
   <!--mobil- menu-->
-     <ul class="mobile__menu js-menu-container" >
+   <div class="mobile js-menu-container" id="mobile-menu">
+    <button type="menu-toggle js-close-menu" type="button">
+      <svg class="mobile__close" width="40" height="40">
+        <use
+          xlink:href="./images/icons.svg#icon-mobile-menu"
+        ></use>
+      </svg>
+    </button>
+     <ul class="mobile__menu" >
           <li class="mobile__menu-links">
             <a href="./index.html" class="mobile__menu-link">Agencja</a>
           </li>
@@ -430,13 +478,16 @@
               >
             </li>
           </ul>
+        </div>
+   </div>
+  
   <!--mobil-menu-end-->
 
 <!--modal-->
      <div class="backdrop is-hidden" data-modal>
        <div class="modal">
         <form class="modal-form">
-          <button class="modal__close-button" type="button" data-modal-close>
+          <button type="button" class="modal__close-button" data-modal-close>
             <svg class="modal__close-svg">
              <use
               class="modal__close-icon"
