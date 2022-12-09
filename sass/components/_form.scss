@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;*/
     text-align: center;
+    padding-bottom: 60px;
 
    &__signin {
     /* display: inline;*/
@@ -32,18 +33,18 @@
    &__signin svg {
      fill: var(--white);
      margin-left: 24px;
-   }
+   }/*
    &__signup-name {
-     /*display: flex;
-     flex-direction: row;*/
+     display: flex;
+     flex-direction: row;
    }
    &__signup {
     /*display: flex;
-     align-items: flex-end;*/
+     align-items: flex-end;
    }
    &__writing {
-     /*display: block;*/
-   }
+     display: block;
+   }*/
    &__input {
      width: 100%; /*358px;*/
      height: 50px;
