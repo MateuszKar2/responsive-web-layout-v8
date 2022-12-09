@@ -33,24 +33,17 @@
       rel="stylesheet"
     />
   </head>
-
   <body>
-    <!-- ====== -->
-    <!-- Header -->
-    <!-- ====== -->
     <header>
       <div class="c-header">
         <div class="l-container">
           <div class="c-header__body">
-            <!-- LOGO -->
             <a
               class="c-logo"
               href="index.html"
               target="_self"
               ><span class="c-logo c-logo--brand">Web</span
-              ><span class="c-logo c-logo--black">Studio</span></a
-            >
-            <!-- Menu mobile -->
+              ><span class="c-logo c-logo--black">Studio</span></a>
             <button
               class="c-nav__button"
               type="button"
@@ -63,8 +56,6 @@
                 <use href="./images/icons.svg#icon-mobile-menu"></use>
               </svg>
             </button>
-            <!-- Menu mobile END -->
-            <!-- NAV -->
             <nav class="c-nav">
               <ul class="c-menu">
                 <li class="c-menu__item">
@@ -92,8 +83,6 @@
                 </li>
               </ul>
             </nav>
-
-            <!-- CONTACT -->
             <div class="l-contact-stack">
               <ul class="c-contact-list">
                 <li class="c-contact-list__item">
@@ -130,12 +119,7 @@
         </div>
       </div>
     </header>
-
-    <!-- ============ -->
-    <!-- Main content -->
-    <!-- ============ -->
     <main>
-      <!-- Slider section -->
       <section class="l-section l-section--slider">
         <div class="l-container">
           <div class="c-slider">
@@ -150,8 +134,6 @@
           </div>
         </div>
       </section>
-
-      <!-- Offer section -->
       <section class="l-section">
         <div class="l-container">
           <div class="l-offer-stack">
@@ -227,8 +209,6 @@
           </div>
         </div>
       </section>
-
-      <!-- Use case section -->
       <section class="l-section l-section--no-top-padding">
         <div class="l-container">
           <h2 class="c-section-title">Czym się zajmujemy</h2>
@@ -271,8 +251,6 @@
           </div>
         </div>
       </section>
-
-      <!-- Team section -->
       <section class="l-section l-section--color">
         <div class="l-container">
           <h2 class="c-section-title">Nasz zespół</h2>
@@ -506,8 +484,6 @@
           </div>
         </div>
       </section>
-
-      <!-- Clients section -->
       <section class="l-section l-section--tablet-padding">
         <div class="l-container">
           <h2 class="c-section-title">Nasi klienci</h2>
@@ -588,14 +564,9 @@
         </div>
       </section>
     </main>
-
-    <!-- ====== -->
-    <!-- Footer -->
-    <!-- ====== -->
     <footer>
       <div class="c-footer c-footer--color">
         <div class="l-container l-container--footer">
-          <!-- Adress section -->
           <div class="l-adress-stack">
             <a
               class="c-logo c-logo--footer"
@@ -623,8 +594,6 @@
               </ul>
             </address>
           </div>
-
-          <!-- Social media section -->
           <div class="c-footer-social-media">
             <p class="c-footer-social-media__title">Dołącz do nas</p>
             <div class="c-social-media">
@@ -666,8 +635,6 @@
               </a>
             </div>
           </div>
-
-          <!-- Signup form section -->
           <div class="l-form-stack">
             <form
               class="c-signup-form"
@@ -699,10 +666,6 @@
         </div>
       </div>
     </footer>
-
-    <!-- =========== -->
-    <!-- Mobile menu-->
-    <!-- =========== -->
     <div class="c-menu-overlay is-closed">
       <div class="c-menu-body">
         <div class="c-menu-btn">
@@ -790,9 +753,6 @@
         </ul>
       </div>
     </div>
-    <!-- ============ -->
-    <!-- Modal window -->
-    <!-- ============ -->
     <div
       class="l-backdrop is-hidden"
       data-modal
@@ -813,13 +773,9 @@
             </svg>
           </button>
         </div>
-
-        <!-- Form section -->
         <div class="l-modal-stack">
           <form class="c-modal-form">
             <p class="c-modal-form__title">Zostaw swoje dane w formularzu poniżej</p>
-
-            <!-- Input name START  -->
             <label class="c-modal-form__body">
               <span class="c-modal-form__label">Imię</span>
               <span>
@@ -836,8 +792,6 @@
                 name="name"
               />
             </label>
-            <!-- Input name END -->
-            <!-- Input phone START  -->
             <label class="c-modal-form__body">
               <span class="c-modal-form__label">Telefon</span>
               <span>
@@ -854,8 +808,6 @@
                 name="phone"
               />
             </label>
-            <!-- Input phone END -->
-            <!-- Input email START  -->
             <label class="c-modal-form__body">
               <span class="c-modal-form__label">Email</span>
               <span>
@@ -872,9 +824,6 @@
                 name="email"
               />
             </label>
-            <!-- Input email END -->
-
-            <!-- Textarea comment START  -->
             <label class="c-modal-form__body">
               <span class="c-modal-form__label">Komentarz</span>
               <textarea
@@ -883,9 +832,6 @@
                 placeholder="Wprowadź tekst"
               ></textarea>
             </label>
-            <!-- Textarea comment END -->
-
-            <!-- Statement checkbox START -->
             <div class="c-custom-checkbox">
               <label class="c-custom-checkbox__label">
                 <input
@@ -918,20 +864,16 @@
                 >
               </label>
             </div>
-            <!-- Statement checkbox END -->
-            <!-- Statement button START -->
             <button
               class="c-button c-modal-form__c-button"
               type="submit"
             >
               Wyślij
             </button>
-            <!-- Statement button END -->
           </form>
         </div>
       </div>
     </div>
-
     <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>

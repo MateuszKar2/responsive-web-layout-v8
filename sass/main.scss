@@ -1,17 +1,17 @@
 @import "./utils/variables.scss";
 @import "./utils/mixins.scss";
 @import "./utils/helpers.scss";
-@import "./utils/container.scss";
+@import "./utils/resect.scss";
 
 @import "./components/use-case.scss";
 @import "./components/team.scss";
 @import "./components/social-media.scss";
-@import "./components/slider.scss";
+@import "./components/list.scss";
 @import "./components/signup-form.scss";
-@import "./components/section.scss";
+@import "./components/banner.scss";
 @import "./components/section-title.scss";
 @import "./components/portfolio-filter.scss";
-@import "./components/portfolio-card.scss";
+@import "./components/team.scss";
 @import "./components/page-header.scss";
 @import "./components/page-footer.scss";
 @import "./components/offer.scss";
@@ -19,10 +19,10 @@
 @import "./components/modal-form.scss";
 @import "./components/modal-close-btn.scss";
 @import "./components/modal-checkbox.scss";
-@import "./components/modal-body.scss";
+@import "./components/modal.scss";
 @import "./components/mobile-menu.scss";
-@import "./components/logo.scss";
-@import "./components/contact-list.scss";
+@import "./components/menu.scss";
+@import "./components/service.scss";
 @import "./components/clients.scss";
 @import "./components/buttons.scss";
 @import "./components/backdrop.scss";
