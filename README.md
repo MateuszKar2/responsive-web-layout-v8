@@ -4,11 +4,13 @@
 
 **Responsive Web Layout v8** is the final iteration of the responsive web layout project. This version focuses on optimizing performance, enhancing accessibility, and ensuring a fully responsive design across all devices.
 
+The project was designed using a **mobile-first** approach, ensuring that it works seamlessly on mobile devices, tablets, and desktops.
+
 ## 🎯 Key Features
 
 - **Performance Optimization**: Images optimized and CSS/JS files minified for faster loading times.
 - **Accessibility Enhancements (a11y)**: Added ARIA attributes and improved semantic HTML structure.
-- **Advanced Responsiveness**: Additional media queries and layout adjustments for various screen sizes.
+- **Advanced Responsiveness**: Additional media queries and layout adjustments for various screen sizes (tablet and desktop).
 - **Code Refactoring**: Improved file structure and updated code comments for better readability.
 
 ## 🛠️ Technologies Used
